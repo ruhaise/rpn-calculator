@@ -11,7 +11,8 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn build && yarn test"
   },
   "repository": {
     "type": "git",
