@@ -1,0 +1,35 @@
+{
+  "name": "rpn-computer",
+  "version": "1.1.1",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "description": "calculate a given RPN expression in javascript",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruhaise/rpn-calculator"
+  },
+  "keywords": [
+    "rpn",
+    "rpn calculator",
+    "rpn typescript"
+  ],
+  "author": "ruhaise k salim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruhaise/rpn-calculator/issues"
+  },
+  "homepage": "https://github.com/ruhaise/rpn-calculator#readme",
+  "devDependencies": {
+    "rollup": "^1.26.0",
+    "rollup-plugin-typescript2": "^0.25.0",
+    "typescript": "^3.6.4"
+  }
+}
