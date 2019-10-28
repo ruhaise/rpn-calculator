@@ -10,7 +10,8 @@
   "description": "calculate a given RPN expression in javascript",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,12 @@
   },
   "homepage": "https://github.com/ruhaise/rpn-computer#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.20",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "rollup": "^1.26.0",
     "rollup-plugin-typescript2": "^0.25.0",
     "typescript": "^3.6.4"
