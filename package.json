@@ -31,14 +31,14 @@
   },
   "homepage": "https://github.com/ruhaise/rpn-computer#readme",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-typescript": "^7.6.0",
-    "@types/jest": "^24.0.20",
-    "babel-jest": "^24.9.0",
-    "jest": "^24.9.0",
-    "rollup": "^1.26.0",
-    "rollup-plugin-typescript2": "^0.25.0",
-    "typescript": "^3.6.4"
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/jest": "^26.0.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "rollup": "^2.18.1",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5"
   }
 }
